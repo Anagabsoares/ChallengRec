@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const mensagemSecreta = [
+        'Aprender',
+        'não',
+        'é',
+        'o',
+        'sobre',
+        'que',
+        'você',
+        'consegue',
+        'facilmente',
+        'na',
+        'primeira',
+        'vez,',
+        'mas',
+        'sobre',
+        'o',
+        'que',
+        'você',
+        'pode',
+        'descobrir.',
+        '↵-2015',
+        'Chris',
+        'Pine',
+        'Aprenda',
+        'JavaScript',
+    ];
+        var index = mensagemSecreta.indexOf('facilmente')  
+        mensagemSecreta.pop()
+        mensagemSecreta.push("a", "programar")
+        mensagemSecreta[index] = "certo"
+        mensagemSecreta.shift()
+        mensagemSecreta.unshift('Programação')
+        mensagemSecreta.forEach(element => {
+            if (element ==='consegue'){
+            indexes = mensagemSecreta.indexOf(element)
+            mensagemSecreta.splice(indexes,5, "sabe")
+            }
+        });
+        finalAnswer = mensagemSecreta.join(" ")
+
+        document.body.innerHTML = "<h1> + finalAnswer + </h1>"
+    </script>
+</body>
+</html>
