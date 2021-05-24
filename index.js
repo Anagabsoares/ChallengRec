@@ -24,6 +24,7 @@ const mensagemSecreta = [
     'Aprenda',
     'JavaScript',
 ];
+// step by step
 var index = mensagemSecreta.indexOf('facilmente')  
 mensagemSecreta.pop()
 mensagemSecreta.push("a", "programar")
@@ -38,3 +39,4 @@ mensagemSecreta.forEach(element => {
 });
 finalAnswer = mensagemSecreta.join(" ")
 
+document.body.innerHTML = "<h1>" + finalAnswer +"</h1>"
