@@ -39,4 +39,4 @@ mensagemSecreta.forEach(element => {
 });
 finalAnswer = mensagemSecreta.join(" ")
 
-document.body.innerHTML = "<h1>" + finalAnswer +"</h1>"
+document.body.innerHTML = "<h1>"+finalAnswer +"</h1>"
