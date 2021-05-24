@@ -38,4 +38,3 @@ mensagemSecreta.forEach(element => {
 });
 finalAnswer = mensagemSecreta.join(" ")
 
-console.log(finalAnswer)
